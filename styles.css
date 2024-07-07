@@ -1,36 +1,53 @@
 body {
   text-align: center;
   background-color: #011F3F;
-  margin: 0;
   overflow: hidden;
+  /* Hide scrollbar */
+  margin: 0;
+  /* Remove default margin */
+  height: 100vh;
+  /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin: 5%;
+  font-size: 4rem;
+  margin: 0%;
   color: #FEF2BF;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 2rem;
-  margin: 5%;
+  font-size: 3rem;
+  margin: 3%;
   color: #FEF2BF;
 }
 
 .container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 15px;
+  height: 180px;
+  width: 180px;
   border: 10px solid black;
   border-radius: 20%;
 }
