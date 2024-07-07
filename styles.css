@@ -2,11 +2,8 @@ body {
   text-align: center;
   background-color: #011F3F;
   overflow: hidden;
-  /* Hide scrollbar */
   margin: 0;
-  /* Remove default margin */
   height: 100vh;
-  /* Full viewport height */
   display: flex;
   flex-direction: column;
   justify-content: center;
